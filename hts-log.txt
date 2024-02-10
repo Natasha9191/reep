@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 10 Feb 2024 20:32:07 at https://www.aiseesoft.com/online-bg-remover/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.aiseesoft.com/online-bg-remover/ -O1 "C:\Users\Sanvi Sardana\Downloads\flow" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:32:09	Warning: 	Note: due to https://www.aiseesoft.com remote robots.txt rules, links beginning with these path will be forbidden: /backlinks.html, /blog, /~hash, /ads, /affiliate, /cgi-bin, /config, /fr/, /paypal/, /help/, /bd/ (see in the options to disable this)
+20:32:54	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.aiseesoft.com/online-bg-remover/)
+20:32:54	Error: 	"Not Found" (404) at link https://www.aiseesoft.com/images/online-bg-remover/tab-color-icon.png (from https://www.aiseesoft.com/css/product/background-remover.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 47 seconds : 110 links scanned, 107 files written (4590864 bytes overall) [1868394 bytes received at 39753 bytes/sec], 3249728 bytes transferred using HTTP compression in 3 files, ratio 13%, 10.0 requests per connection
+(2 errors, 1 warnings, 0 messages)

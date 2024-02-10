@@ -1,0 +1,92 @@
+.clearfloat::after{display: block;content: "";height: 0;clear:both;overflow: hidden;visibility: hidden;}
+.clearfloat{zoom:1;}
+.new-footer{width:100%;background-color:#333;padding:25px 0}
+.new-footer .container{padding:30px 10px 40px;overflow:hidden;max-width:1200px}
+.footer-box{width:20%;float:left;margin-right:3%}
+.footer-box a{display: block;}
+.new-footer .footer-box >a:nth-of-type(1){width: 144px;margin-bottom: 20px;}
+.new-footer .footer-box >a:nth-of-type(2),.new-footer .footer-box >a:nth-of-type(3){margin:0;padding:0 !important;margin-bottom: 14px;box-sizing: border-box;max-width: 160px;width: 160px;height: 36px;border:1px solid #2ab0f5;border-radius:3px;font-size:14px;line-height: 36px;text-align: center;padding-left: 20px !important;color:#2ab0f5;background: url(../style/index/download.png) 4px 2px no-repeat;}
+.new-footer .footer-box >a:nth-of-type(3){background: url(../style/index/buy.png) 4px 2px no-repeat;}
+.footer-box img{margin-top:20px}
+.footer-company{width:25%;float:left;border-left:#464646 1px solid;padding-left:20px;height:149px}
+.footer-support{width:17%;border-left:#464646 1px solid;padding-left:20px}
+.footer-social{width:20%;border-left:#464646 1px solid;padding-left:20px;height:149px}
+.new-footer h3{font-size:18px;margin:20px auto;color:#fff}
+.new-footer h3.cooper{margin-top:20px}
+.new-footer p{font-size:14px}
+.new-footer a:link,.new-footer a:visited,.new-footer p{color:#fff}
+.new-footer ul li{line-height:16px;margin:11px 0;font-size:14px}
+.footer-sns{width:100%}
+.footer-sns a{margin-right:5px;width:40px;height:40px;display:inline-block}
+.footer-sns a img{max-width:48px}
+.footer-sns a.facebook{background:url(../style/images/share-sns.png) no-repeat 0 0}
+.footer-sns a.twitter{background:url(../style/images/share-sns.png) no-repeat -57px 0}
+.footer-sns a.youtube{background:url(../style/images/share-sns.png) no-repeat -111px 0}
+.footer-sns a.google{background:url(../style/images/share-sns.png) no-repeat -162px 0}
+#new-footer-bottom{clear:both;background:#292929;width:100%}
+#new-footer-bottom p{color:#fff;text-align:center;margin:15px auto 10px}
+#new-footer-bottom p a{text-align:center;color:#fff;font-size:14px}
+#new-footer-bottom span.copyright{text-align:center;font-size:14px;padding-left:10px;color:#7c7c7c;}
+#new-footer-bottom p.copyright{color:#7c7c7c;text-align:center;font-size:14px;padding-left:10px}
+.new-footer a#new-subscribe{background:url(../images/subscribe.png) no-repeat;width:264px;height:28px;display:block;color:#fff;font-size:14px;padding:10px 0 0 25px}
+.new-footer a#new-subscribe:hover{text-decoration:none;background:url(../images/subscribe.png) no-repeat 0 -38px}
+.new-footer #new-exclusive_discount{line-height:14px;margin-top:10px;color:#7c7c7c}
+/* language */
+.new-footer .container.clearfloat{overflow: visible;}
+.new-footer .botlink-company h3{margin:0 auto 6px;}
+.botlink-company #exclusive_discount{margin-bottom: 16px;}
+a#subscribe{max-width: 264px;height: 38px;display: block;color: #fff;font-size: 14px;padding-left: 25px;line-height: 38px;border: 1px solid #7c7c7c;border-radius: 30px;box-sizing: border-box;box-sizing: border-box;position: relative;background: none;}
+a#subscribe:hover{border-color: #b6b6b6;text-decoration: none;}
+a#subscribe::after{clear: both;content: "";width: 9px;height: 17px;background: url(../images/triangle.png);position: absolute;top: 10px;right: 20px;}
+.botlink-company{width:25%;float:left;border-left:#464646 1px solid;padding-left:20px;height:149px}
+.botlink-support,.botlink-social{height: 234px;}
+.botlink .container{overflow: initial;}
+.botlink .container:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.botlink-company{height: auto;}
+.language{margin-top: 14px;}
+.language>a{background-image: url(../style/images/country.png);width: 34px;height: 21px;display: inline-block;margin-right: 5px;zoom: 1.1;}
+.language>a.en{background-position-Y:-21px;}
+.language>a.de{background-position-Y:-0px;}
+.language>a.fr{background-position-Y:-42px; float: none;}
+.language>a.jp{background-position-Y:-64px;}
+.language select{margin-top: 6px;display: block;width: 175px;height: 22px;}
+.botlink .language div ul li a{color: #222;font-size: 16px;}
+.new-footer .botlink-company a,.new-footer .botlink-company a:link, .new-footer .botlink-company a:visited{color: #222;font-size: 16px;}
+.language div ul::after {content: "";width: 0;height: 0;border-width: 10px;border-style: solid;border-color: #fff transparent transparent;position: absolute;bottom: -20px;left: 50%;margin-left: -11px;}
+.language div ul::before{content: "";clear: both;background: transparent;position: absolute;width: 200px;height: 20px;bottom: -15px;left: 0px;}
+@media screen and (max-width:850px){
+.footer-box,.footer-company,.footer-social,.footer-support,.botlink-company{width:100%}
+.new-footer .container.clearfloat .footer-support,.new-footer .container.clearfloat .footer-social,.new-footer .container.clearfloat .botlink-company{padding-left: 0;border-left: 0;}
+/* new */
+.new-footer .container{padding: 25px 30px 14px;display: flex;flex-wrap: wrap;}
+.footer-box img{margin-top: 0px;}
+.new-footer .footer-box,.botlink-company{width: 47%;}
+.new-footer .container .footer-box:first-of-type {order: 1;}
+.new-footer .container .footer-support{order: 3;margin-left: 0px;margin-top: 30px;}
+.new-footer .container .footer-social{order: 2;}
+.new-footer .container .footer-social h3{margin: 10px auto 22px;}
+.new-footer .container .botlink-company {order: 4;margin-top: 36px;margin-left: 0px;}
+#new-footer-bottom span.copyright{display: block;padding-left: 0px;}
+#new-footer-bottom p{margin: 20px auto;}
+#new-footer-bottom span.copyright{display: block;}
+#new-footer-bottom p a,#new-footer-bottom span.copyright{line-height: 26px;font-size: 14px;}
+#new-footer-bottom{background-color: #222;}
+.botlink-company #exclusive_discount{color: #FFFFFF;margin-top: 18px;}
+.new-footer .botlink-company h3{margin-bottom: 8px;}
+.language{margin-top: 20px;}
+
+}
+@media screen and (max-width:540px){
+  .new-footer .container{display: block;}
+  .botlink-company, .new-footer .footer-box{width: 100%;}
+  .new-footer .container .footer-support{margin-top: 0px;}
+  .new-footer .container .botlink-company{margin-top: 0px;}
+  .footer-social{height: 140px;}
+}
+@media screen and (max-width:440px){
+  .new-footer .container.clearfloat .footer-support,.new-footer .container.clearfloat .footer-social,.new-footer .container.clearfloat .botlink-company{padding-left: 0;border-left: 0;}
+  .language div ul{left: 50%;}
+}
+@media screen and (max-width:375px){
+  .language div ul{left: 0;margin: 0 auto!important;}
+}
